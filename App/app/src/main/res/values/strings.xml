@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TippspielApp</string>
+
+    //main_menu
+    <string name="mainmenu_IMG_TTS">Logo</string>
+    <string name="mainmenu_sign_in">Sign in</string>
+    <string name="mainmenu_sign_in_guest">Sign in as Guest</string>
+
+    //taskbar
+
 </resources>
