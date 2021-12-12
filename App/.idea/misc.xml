@@ -4,10 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Marco/Documents/GitHub/TippspielApp/App/app/src/main/res/layout/activity_main.xml" value="0.48007246376811596" />
-        <entry key="..\:/Users/Marco/Documents/GitHub/TippspielApp/App/app/src/main/res/layout/homescreen.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Marco/Documents/GitHub/TippspielApp/App/app/src/main/res/layout/homescreen.xml" value="0.5076992753623188" />
         <entry key="..\:/Users/Marco/Documents/GitHub/TippspielApp/App/app/src/main/res/layout/settings.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Marco/Documents/GitHub/TippspielApp/App/app/src/main/res/layout/standings_bundesliga.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Marco/Documents/GitHub/TippspielApp/App/app/src/main/res/layout/standings_users.xml" value="0.5401041666666667" />
+        <entry key="..\:/Users/Marco/Documents/GitHub/TippspielApp/App/app/src/main/res/layout/sign_up.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Marco/Documents/GitHub/TippspielApp/App/app/src/main/res/layout/standings_bundesliga.xml" value="0.5076992753623188" />
+        <entry key="..\:/Users/Marco/Documents/GitHub/TippspielApp/App/app/src/main/res/layout/standings_users.xml" value="0.5076992753623188" />
       </map>
     </option>
   </component>
