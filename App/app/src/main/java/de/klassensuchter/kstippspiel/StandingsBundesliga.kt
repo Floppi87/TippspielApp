@@ -1,12 +1,9 @@
 package de.klassensuchter.kstippspiel
 
 import android.content.SharedPreferences
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-
-
-
+import androidx.appcompat.app.AppCompatActivity
 
 
 class StandingsBundesliga : AppCompatActivity() {
@@ -19,8 +16,8 @@ class StandingsBundesliga : AppCompatActivity() {
         setContentView(R.layout.standings_bundesliga)
 
         shared = this.getSharedPreferences("SharedPreferences", MODE_PRIVATE)
-        UserLoggedInAsGuest = shared.getBoolean("UserLoggedInAsGuest",false)
-        if(UserLoggedInAsGuest){
+        UserLoggedInAsGuest = shared.getBoolean("UserLoggedInAsGuest", false)
+        if (UserLoggedInAsGuest) {
             var view = findViewById<View>(R.id.button_taskbar_1)
             view.visibility = View.GONE
             view = findViewById(R.id.button_taskbar_2)

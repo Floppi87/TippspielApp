@@ -2,9 +2,9 @@ package de.klassensuchter.kstippspiel
 
 import android.content.Intent
 import android.content.SharedPreferences
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 
 class Main_menu : AppCompatActivity() {
 
@@ -22,7 +22,7 @@ class Main_menu : AppCompatActivity() {
 
     fun buttonSignIn(view: View) {
 
-        if(false){
+        if (false) {
             startActivity(Intent(this, Homescreen::class.java))
             finish()
 
@@ -35,10 +35,9 @@ class Main_menu : AppCompatActivity() {
     fun buttonSignInAsGuest(view: View) {
         startActivity(Intent(this, StandingsBundesliga::class.java))
         finish()
-        UserLoggedInAsGuest = shared.getBoolean("UserLoggedInAsGuest",false)
+        UserLoggedInAsGuest = shared.getBoolean("UserLoggedInAsGuest", false)
         shared.edit().putBoolean("UserLoggedInAsGuest", true).apply()
     }
-
 
 
 }

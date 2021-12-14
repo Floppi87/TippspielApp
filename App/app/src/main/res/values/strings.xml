@@ -12,6 +12,6 @@
     <!-- Sign up screen -->
     <string name="sign_up_name">Name</string>
     <string name="sign_up_password">Password</string>
-    
+
 
 </resources>
