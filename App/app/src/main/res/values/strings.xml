@@ -5,6 +5,7 @@
     <string name="mainmenu_IMG_TTS">Logo</string>
     <string name="mainmenu_sign_in">Sign in</string>
     <string name="mainmenu_sign_in_guest">Sign in as Guest</string>
+    <string name="mainmenu_sign_up">Sign Up</string>
 
     <!-- taskbar -->
 

@@ -32,7 +32,6 @@ class StandingsBundesliga : AppCompatActivity() {
             view = findViewById(R.id.textView)
             view.visibility = View.GONE
 
-
         }
     }
 }
