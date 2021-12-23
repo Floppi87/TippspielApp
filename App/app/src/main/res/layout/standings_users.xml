@@ -10,9 +10,10 @@
         android:id="@+id/button_taskbar_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/taskbar_standings_users"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-    <!-- TODO Content Description -->
+
     <ImageButton
         android:id="@+id/button_taskbar_2"
         android:layout_width="wrap_content"
@@ -29,17 +30,19 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="0dp"
         android:onClick="buttonTaskbarStandingsBundesliga"
+        android:contentDescription="@string/taskbar_standings_bundesliga"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_taskbar_4" />
-    <!-- TODO Content Description -->
+
     <ImageButton
         android:id="@+id/button_taskbar_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonTaskbarSettings"
+        android:contentDescription="@string/taskbar_settings"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-    <!-- TODO Content Description -->
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"

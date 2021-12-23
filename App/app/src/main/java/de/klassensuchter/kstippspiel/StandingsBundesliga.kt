@@ -31,18 +31,17 @@ class StandingsBundesliga : AppCompatActivity() {
             view.visibility = View.GONE
 
         }
-
-        fun buttonTaskbarHomescreen(view: View) {
-            startActivity(Intent(this, Homescreen::class.java))
-            finish()
-        }
-        fun buttonTaskbarStandingsBundesliga(view: View) {
-            startActivity(Intent(this, StandingsUsers::class.java))
-            finish()
-        }
-        fun buttonTaskbarSettings(view: View) {
-            startActivity(Intent(this, Settings::class.java))
-            finish()
-        }
+    }
+    fun buttonTaskbarHomescreen(view: View) {
+        startActivity(Intent(this, Homescreen::class.java))
+        finish()
+    }
+    fun buttonTaskbarStandingsUsers(view: View) {
+        startActivity(Intent(this, StandingsUsers::class.java))
+        finish()
+    }
+    fun buttonTaskbarSettings(view: View) {
+        startActivity(Intent(this, Settings::class.java))
+        finish()
     }
 }

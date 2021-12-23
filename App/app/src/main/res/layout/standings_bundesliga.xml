@@ -10,35 +10,39 @@
         android:id="@+id/button_taskbar_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/taskbar_standings_users"
+        android:onClick="buttonTaskbarStandingsUsers"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:onClick=""
         app:layout_constraintStart_toStartOf="parent" />
-    <!-- TODO Content Description -->
+
     <ImageButton
         android:id="@+id/button_taskbar_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="0dp"
-
+        android:contentDescription="@string/taskbar_homescreen"
+        android:onClick="buttonTaskbarHomescreen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button_taskbar_1" />
-    <!-- TODO Content Description -->
+
     <ImageButton
         android:id="@+id/button_taskbar_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="0dp"
+        android:contentDescription="@string/taskbar_standings_bundesliga"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_taskbar_4" />
-    <!-- TODO Content Description -->
+
     <ImageButton
         android:id="@+id/button_taskbar_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:contentDescription="@string/taskbar_settings"
+        android:onClick="buttonTaskbarSettings"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-    <!-- TODO Content Description -->
+
 
     <TextView
         android:id="@+id/textView"

@@ -10,6 +10,9 @@
     <!-- taskbar -->
 
     <string name="taskbar_homescreen">Homescreen</string>
+    <string name="taskbar_standings_bundesliga">Standings Bundesliga</string>
+    <string name="taskbar_standings_users">Standings Users</string>
+    <string name="taskbar_settings">Settings</string>
 
     <!-- Sign up screen -->
     <string name="sign_up_name">Name</string>
