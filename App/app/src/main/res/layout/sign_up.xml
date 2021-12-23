@@ -6,6 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".Sign_up">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="212dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/mainmenu_IMG_TTS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kstrans" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="199dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="700dp"
+        android:contentDescription="@string/mainmenu_IMG_TTS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tippspiel" />
+
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="250dp"
@@ -40,8 +64,9 @@
         android:id="@+id/button_sign_in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/button_bg_border"
+        android:layout_marginTop="20dp"
 
+        android:background="@drawable/button_bg_border"
         android:padding="3dp"
         android:text="@string/mainmenu_sign_in"
         android:textColor="@color/green"
