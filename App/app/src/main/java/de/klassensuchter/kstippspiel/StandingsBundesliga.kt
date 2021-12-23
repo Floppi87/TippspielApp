@@ -1,5 +1,6 @@
 package de.klassensuchter.kstippspiel
 
+import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.View
@@ -29,6 +30,19 @@ class StandingsBundesliga : AppCompatActivity() {
             view = findViewById(R.id.textView)
             view.visibility = View.GONE
 
+        }
+
+        fun buttonTaskbarHomescreen(view: View) {
+            startActivity(Intent(this, Homescreen::class.java))
+            finish()
+        }
+        fun buttonTaskbarStandingsBundesliga(view: View) {
+            startActivity(Intent(this, StandingsUsers::class.java))
+            finish()
+        }
+        fun buttonTaskbarSettings(view: View) {
+            startActivity(Intent(this, Settings::class.java))
+            finish()
         }
     }
 }

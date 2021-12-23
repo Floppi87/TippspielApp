@@ -9,6 +9,8 @@
 
     <!-- taskbar -->
 
+    <string name="taskbar_homescreen">Homescreen</string>
+
     <!-- Sign up screen -->
     <string name="sign_up_name">Name</string>
     <string name="sign_up_password">Password</string>

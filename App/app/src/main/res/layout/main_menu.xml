@@ -29,7 +29,7 @@
         android:padding="3dp"
         android:text="@string/mainmenu_sign_in"
         android:textColor="@color/green"
-        android:textSize="32sp"
+        android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -37,7 +37,7 @@
     <Button
         android:id="@+id/button_sign_in_as_guest"
         android:layout_width="123dp"
-        android:layout_height="32dp"
+        android:layout_height="40dp"
         android:background="@android:color/transparent"
         android:onClick="buttonSignInAsGuest"
         android:padding="3sp"
@@ -53,7 +53,7 @@
     <Button
         android:id="@+id/button_sign_up"
         android:layout_width="60dp"
-        android:layout_height="32dp"
+        android:layout_height="40dp"
         android:background="@android:color/transparent"
         android:padding="3sp"
         android:text="@string/mainmenu_sign_up"
